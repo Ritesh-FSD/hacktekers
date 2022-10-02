@@ -1,224 +1,378 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hacktakers </title>
-    <!-- Bootstrap Link -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hacktakers </title>
+  <!-- Bootstrap Link -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+    integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
 
-    <!-- font awesome cdn link  -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- font awesome cdn link  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
 
-    <!-- custom css file link  -->
-    <link rel="stylesheet" href="style.css">
+  <!-- custom css file link  -->
+  <link rel="stylesheet" href="style.css">
 
 
 </head>
-<body> 
-    
-<!-- header section starts  -->
 
-<header>
-    <a href="#" class="logo" style="color:#fff; text-decoration: none;"><img src="images/Hacktekers_Logo.png" style="width:70px;"></i>Hackteker</a>
+<body>
+
+  <!-- Header section starts  -->
+
+  <header class="nav-scroll">
+    <a href="#" class="logo" style="color:#fff; text-decoration: none;"><img src="images/Hacktekers_Logo.png"
+        style="width:70px;"></i>Hackteker</a>
     <div id="menu-bar" class="fas fa-bars"></div>
     <nav class="navbar">
-        <a href="#home" class="active">home</a>
-        <a href="#speciality">About</a>
-        <a href="#popular">Certificate</a>
-        <button type="button" class="loginbtn">Login/Signup</button>  
+      <a href="#home" class="active">Home</a>
+      <a href="#speciality">Certificate</a>
+      <a href="#popular">Live Session</a>
+
+      <a href="login.html" type="button" class="loginbtn">Login/Signup</a>
     </nav>
 
-</header>
-<!-- header section ends -->
+  </header>
+  <!-- header section ends -->
 
-<!-- home section starts  -->
-<section class="home" id="home">
-   <!--  <div class="radial1"></div>
+  <!-- home section starts  -->
+  <section class="home scrollevent" id="home">
+    <!--  <div class="radial1"></div>
     <div class="radial2"></div> -->
     <div class="content">
-    	<a href="#" class="btn1">Black Terminal with Green Screen</a>
-        <h3>Industry Level Cybersecurity <br> Learning at your College</h3>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas accusamus tempore temporibus rem amet laudantium animi optio voluptatum. Natus obcaecati unde porro nostrum ipsam itaque impedit incidunt rem quisquam eos!</p>
-        <a href="#" class="btn">Explore now  <i class="fa-solid fa-arrow-right"></i></a>
+      <a href="#" class="btn1">Black Terminal with Green Screen</a>
+      <h3>Industry Level Cybersecurity <br> Learning at your College</h3>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas accusamus tempore temporibus rem amet
+        laudantium animi optio voluptatum. Natus obcaecati unde porro nostrum ipsam itaque impedit incidunt rem quisquam
+        eos!</p>
+      <a href="#" class="btn">Explore now <i class="fa-solid fa-arrow-right"></i></a>
     </div>
 
     <div class="image">
-        <img src="images/bg.png" alt="">
+      <img src="images/bg.png" alt="">
     </div>
-
     <div class="container">
-        <div class="box">
-            <p><i class="fa-sharp fa-solid fa-play"></i>&nbsp &nbsp  &nbsp  &nbsp &nbsp In depth video for better<br/>&nbsp  &nbsp &nbsp &nbsp &nbsp learning
-            </p>
-        </div>
-        <div class="box">
-            <p><i class="fa-solid fa-gear" style="color:white;"></i>&nbsp &nbsp  &nbsp   &nbsp  &nbsp &nbsp Work on case study and get a <br/> &nbsp  &nbsp &nbsp &nbsp &nbsp   &nbsp experience letter </p>
-        </div>
-        <div class="box">
-            <p><i class="fa-solid fa-gear" style="color:white;"></i>&nbsp &nbsp  &nbsp   &nbsp  &nbsp &nbsp Get into the community of  <br/> &nbsp  &nbsp &nbsp &nbsp &nbsp   &nbsp  like-minded people.</p>
-        </div>
+      <div class="box">
+        <p><i class="fa-brands fa-square-youtube" style="color:red;"></i>&nbsp  &nbsp &nbsp &nbsp &nbsp &nbspIn depth video
+          for better<br />&nbsp &nbsp &nbsp &nbsp &nbsp learning
+        </p>
+      </div>
+      <div class="box">
+        <p><i class="fa fa-cog" aria-hidden="true" style="color:blue;"></i>&nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Work on
+          case study and get a <br /> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp experience letter </p>
+      </div>
+      <div class="box">
+        <p><i class="fa-solid fa-robot" style="color:#1b1b1b;"></i></i>&nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Get into the
+          community of <br /> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp like-minded people.</p>
+      </div>
     </div>
 
-</section>
+  </section>
 
-<!-- home section ends -->
-<br><br>
-<div class="section">
-        <div class="second_container">
-            <div class="content-section">
-                <div class="title">
-                   <a href="#" class="learnbtn">Learn</a>
-                </div>
-                <div class="content">
-                    <h3>Get Experience for Cybersecurity with our Course Competition.</h3>
-                    <p>Live Class Based Learning and  Study Experience.
-                        Get Certified with Hacktekers.</p>
-                    <div class="startbtn">
-                        <a href="">Start  <i class="fa-solid fa-arrow-right"></i></a>
-                    </div>
-                </div>
-            </div>
-            <div class="image-section">
-                <img src="images/bg2.png">
-            </div>
+  <!-- Home section ends -->
+  <br><br>
+  <div class="section">
+    <div class="second_container">
+      <div class="content-section">
+        <div class="title">
+          <a href="#" class="learnbtn">Learn</a>
         </div>
+        <div class="content">
+          <h3>Get Experience for Cybersecurity with our Course Competition.</h3>
+          <p>Live Class Based Learning and Study Experience.
+            Get Certified with Hacktekers.</p>
+          <div class="startbtn">
+            <a href="">Start <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="image-section">
+        <img src="images/bg2.png">
+      </div>
     </div>
+  </div>
 
-    <!-- Upcoming project  -->
-     <div class="upcoming-slider-box ">
-     	<h2 class="text-center font-weight-bold" style="font-size: 25px; color:#fff;">Upcoming Projects</h2>
-        <div id="slider">
-            <img src="images/upcoming.jpg" alt="/">
-            <img src="images/upcoming.jpg" alt="/">
-            <img src="images/upcoming.jpg" alt="/">
-            <img src="images/upcoming.jpg" alt="/">
-        </div>
-        <div class="indicators">
-            <span id="btn1" class="active"></span>
-            <span id="btn2"></span>
-            <span id="btn3"></span>
-            <span id="btn4"></span>
-        </div>
+  <!-- Upcoming project  -->
+  <div class="upcoming-slider-box">
+    <h2 class="text-center font-weight-bold" style="font-size: 25px; color:#fff;">Upcoming Projects</h2>
+    <div id="slider">
+      <img src="images/upcoming.jpg" alt="/">
+      <img src="images/upcoming.jpg" alt="/">
+      <img src="images/upcoming.jpg" alt="/">
+      <img src="images/upcoming.jpg" alt="/">
     </div>
+    <div class="indicators">
+      <span id="btn1" class="active"></span>
+      <span id="btn2"></span>
+      <span id="btn3"></span>
+      <span id="btn4"></span>
+    </div>
+  </div>
 
- <!-- free courses -->
+  <!-- free courses -->
   <div class="freecourses_container">
-        <h2 class="text-center font-weight-bold" style="font-size: 25px;">Free courses</h2>
-        <section class="customer-logos slider">
-            <div class="slide"><img src="images/adidas.png" alt="logo"></div>
-            <div class="slide"><img src="images/facebook.png" alt="logo"></div>
-            <div class="slide"><img src="images/google.png" alt="logo"></div>
-            <div class="slide"><img src="images/instagram.png" alt="logo"></div>
-            <div class="slide"><img src="images/nike.png" alt="logo"></div>
-            <div class="slide"><img src="images/twitter.png" alt="logo"></div>
-            <div class="slide"><img src="images/uber.png" alt="logo"></div>
-            <div class="slide"><img src="images/youtube.png" alt="logo"></div>
-        </section>
-    </div>
+    <h2 class="text-center font-weight-bold" style="font-size: 25px;">Free courses</h2>
+    <section class="customer-logos slider">
+      <div class="slide"><img src="images/adidas.png" alt="logo"></div>
+      <div class="slide"><img src="images/facebook.png" alt="logo"></div>
+      <div class="slide"><img src="images/google.png" alt="logo"></div>
+      <div class="slide"><img src="images/instagram.png" alt="logo"></div>
+      <div class="slide"><img src="images/nike.png" alt="logo"></div>
+      <div class="slide"><img src="images/twitter.png" alt="logo"></div>
+      <div class="slide"><img src="images/uber.png" alt="logo"></div>
+      <div class="slide"><img src="images/youtube.png" alt="logo"></div>
+    </section>
+  </div>
 
-    <!-- Testimonial-section  -->
-    <br><br>
- 		<div class="container review-section">
-	<div class="row">
-		<div class="col-md-8 col-center m-auto">
-			<h2>Testimonials</h2>
-			<div id="myCarousel" class="carousel slide" data-ride="carousel">
-				<!-- Carousel -->
-				<div class="carousel-inner">
-					<div class="item carousel-item active">
-						<div class="img-box"><img src="https://i.ibb.co/d5DY64w/img1.jpg" alt=""></div>
-						<p class="testimonial">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu sem tempor, varius quam at, luctus dui. Mauris magna metus, dapibus nec turpis vel, semper malesuada ante. Idac bibendum scelerisque non non purus. Suspendisse varius nibh non aliquet.</p>
-						<p class="overview"><b>Jennifer Smith</b>, Office Worker</p>
-					</div>
-					<div class="item carousel-item">
-						<div class="img-box"><img src="https://i.ibb.co/5FF1vqz/img2.jpg" alt=""></div>
-						<p class="testimonial">Vestibulum quis quam ut magna consequat faucibus. Pellentesque eget nisi a mi suscipit tincidunt. Utmtc tempus dictum risus. Pellentesque viverra sagittis quam at mattis. Suspendisse potenti. Aliquam sit amet gravida nibh, facilisis gravida odio.</p>
-						<p class="overview"><b>Dauglas McNun</b>, Financial Advisor</p>
-					</div>
-					<div class="item carousel-item">
-						<div class="img-box"><img src="https://i.ibb.co/Trv7hDv/img3.jpg" alt=""></div>
-						<p class="testimonial">Phasellus vitae suscipit justo. Mauris pharetra feugiat ante id lacinia. Etiam faucibus mauris id tempor egestas. Duis luctus turpis at accumsan tincidunt. Phasellus risus risus, volutpat vel tellus ac, tincidunt fringilla massa. Etiam hendrerit dolor eget rutrum.</p>
-						<p class="overview"><b>Hellen Wright</b>, Athelete</p>
-					</div>
-				</div>
-				<!-- Carousel Controls -->
-				<a class="carousel-control left carousel-control-prev" href="#myCarousel" data-slide="prev">
-					<i class="fa fa-angle-left"></i>
-				</a>
-				<a class="carousel-control right carousel-control-next" href="#myCarousel" data-slide="next">
-					<i class="fa fa-angle-right"></i>
-				</a>
-			</div>
-		</div>
-	</div>
+
+<!-- Internship partner -->
+<div id="slider">
+	<h2 class="text-center" style="color:#fff; font-size: 20px;">Internship Partner</h2>
+   <input type="radio" name="slider" id="slide1" checked>
+   <input type="radio" name="slider" id="slide2">
+   <input type="radio" name="slider" id="slide3">
+   <input type="radio" name="slider" id="slide4">
+   <div id="slides">
+      <div id="overflow">
+         <div class="inner">
+            <div class="slide slide_1">
+               <div class="slide-content">
+                  <!-- <h2>Slide 1</h2>
+                  <p>Content for Slide 1</p> -->
+               </div>
+            </div>
+            <div class="slide slide_2">
+               <div class="slide-content">
+                  <!-- <h2>Slide 2</h2>
+                  <p>Content for Slide 2</p> -->
+               </div>
+            </div>
+            <div class="slide slide_3">
+               <div class="slide-content">
+                  <!-- <h2>Slide 3</h2>
+                  <p>Content for Slide 3</p> -->
+               </div>
+            </div>
+            <div class="slide slide_4">
+               <div class="slide-content">
+                  <!-- <h2>Slide 4</h2>
+                  <p>Content for Slide 4</p> -->
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div id="controls">
+      <label for="slide1"></label>
+      <label for="slide2"></label>
+      <label for="slide3"></label>
+      <label for="slide4"></label>
+   </div>
+   <div id="bullets">
+      <label for="slide1"></label>
+      <label for="slide2"></label>
+      <label for="slide3"></label>
+      <label for="slide4"></label>
+   </div>
 </div>
 
-
-<!-- FAQ -->
-   <div class="accordion">
-        <h1 style="text-align: center ; color: #fff;">Frequently Asked Question</h1>
-
-        
-    <div class="accordion-item">
-      <div class="accordion-item-header">
-        What Is Hacktekers?
-      </div>
-      <div class="accordion-item-body">
-        <div class="accordion-item-body-content">
-          Nibh quisque suscipit fermentum netus nulla cras porttitor euismod nulla. Orci, dictumst nec aliquet id ullamcorper venenatis. Fermentum sulla craspor ttitore  ismod nulla.
-        </div>
-      </div>
-    </div>
-    <div class="accordion-item">
-      <div class="accordion-item-header">
-        What Is Hacktekers?
-      </div>
-      <div class="accordion-item-body">
-        <div class="accordion-item-body-content">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat repellat maiores veritatis et, dicta necessitatibus quas illo commodi libero!<br>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae sequi a fugit totam tempore,  aspernatur.
-        </div>
-      </div>
-    </div>
-    <div class="accordion-item">
-      <div class="accordion-item-header">
-        What Is Hacktekers?
-      </div>
-      <div class="accordion-item-body">
-        <div class="accordion-item-body-content">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus alias dolorum itaque incidunt amet animi explicabo facilis, voluptates, maxime repudiandae minus at, voluptatibus optio facere in obcaecati exercitationem, ab quod.
-        </div>
-      </div>
-    </div>
-    <div class="accordion-item">
-      <div class="accordion-item-header">
-         What Is Hacktekers?
-      </div>
-      <div class="accordion-item-body">
-        <div class="accordion-item-body-content">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam error alias, incidunt dolor aperiam soluta aspernatur tenetur eaque, iusto consequuntur sit nam labore id suscipit. Soluta quos, molestias cum ab laborum odit quaerat quibusdam.
-        </div>
-      </div>
-    </div>
-    <div class="accordion-item">
-      <div class="accordion-item-header">
-      What Is Hacktekers?
-      </div>
-      <div class="accordion-item-body">
-        <div class="accordion-item-body-content">
-          CORS, aka Cross-Origin Resource Sharing, is a mechanism that enables many resources (e.g. images, stylesheets, scripts, fonts) on a web page to be requested from another domain outside the domain from which the resource originated.
+  <!-- Testimonial-section  -->
+  <br><br>
+  <div class="container">
+    <div class="row" >
+      <div class="col-md-8 col-center m-auto review-section">
+        <h2>Testimonials</h2>
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+          <!-- Carousel -->
+          <div class="carousel-inner">
+            <div class="item carousel-item active">
+              <div class="img-box"><img src="https://i.ibb.co/d5DY64w/img1.jpg" alt=""></div>
+              <p class="testimonial">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu sem tempor, varius
+                quam at, luctus dui.</p>
+              <p class="overview"><b>Jennifer Smith</b>, Office Worker</p>
+            </div>
+            <div class="item carousel-item">
+              <div class="img-box"><img src="https://i.ibb.co/5FF1vqz/img2.jpg" alt=""></div>
+              <p class="testimonial">Vestibulum quis quam ut magna consequat faucibus. Pellentesque eget nisi a mi
+                suscipit tincidunt. Utmtc tempus dictum risus. Pellentesque viverra sagittis quam at mattis. </p>
+              <p class="overview"><b>Dauglas McNun</b>, Financial Advisor</p>
+            </div>
+            <div class="item carousel-item">
+              <div class="img-box"><img src="https://i.ibb.co/Trv7hDv/img3.jpg" alt=""></div>
+              <p class="testimonial">Phasellus vitae suscipit justo. Mauris pharetra feugiat ante id lacinia. Etiam
+                faucibus mauris id tempor egestas. Duis luctus turpis at accumsan tincidunt. </p>
+              <p class="overview"><b>Hellen Wright</b>, Athelete</p>
+            </div>
+          </div>
+          <!-- Carousel Controls -->
+ <!--          <a class="carousel-control left carousel-control-prev" href="#myCarousel" data-slide="prev">
+            <i class="fa fa-angle-left"></i>
+          </a>
+          <a class="carousel-control right carousel-control-next" href="#myCarousel" data-slide="next">
+            <i class="fa fa-angle-right"></i>
+ -->          </a>
         </div>
       </div>
     </div>
   </div>
-<!--script-->
-<script src="script.js"></script>
 
 
+  <!-- contact-->
+  <div class="contact1 ">
+    <div class="container-contact1">
+      <div class="contact1-pic js-tilt" data-tilt>
+        <img src="images/contact.png" alt="IMG">
+      </div>
+      <form class="contact1-form validate-form">
+        <span class="contact1-form-title">
+          Contact us
+        </span>
+        <div class="wrap-input1">
+          <label class="inputname">Full Name:</label>
+          <input class="input1" type="text" name="name" placeholder="Your Name" required>
+        </div>
+
+        <div class="wrap-input1 ">
+          <label class="inputname">Email:</label>
+          <input class="input1" type="text" name="email" placeholder="Email" required
+            style="text-transform: lowercase;">
+        </div>
+
+        <div class="wrap-input1 validate-input">
+          <label class="inputname">Age:</label>
+          <input class="input1" type="text" name="age" placeholder="Age(__)" required style="width:30%;">
+        </div>
+
+        <div class="container-contact1-form-btn">
+          <button class="contact1-form-btn">
+            <span>
+              Submit
+              <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+            </span>
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+
+  <!-- FAQ -->
+  <div class="accordion">
+    <h1 style="text-align: center ; color: #fff;">Frequently Asked Question</h1>
+
+
+    <div class="accordion-item">
+      <div class="accordion-item-header">
+        <p> What Is Hacktekers?</p>
+      </div>
+      <div class="accordion-item-body">
+        <div class="accordion-item-body-content">
+          <p>Nibh quisque suscipit fermentum netus nulla cras porttitor euismod nulla. Orci, dictumst nec aliquet id
+            ullamcorper venenatis. Fermentum sulla craspor ttitore ismod nulla.</p>
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <div class="accordion-item-header">
+        <p> What Is Hacktekers?</p>
+      </div>
+      <div class="accordion-item-body">
+        <div class="accordion-item-body-content">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat repellat maiores veritatis et, dicta
+            necessitatibus quas illo commodi libero!<br>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae sequi a fugit totam tempore,
+            aspernatur.</p>
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <div class="accordion-item-header">
+        <p>What Is Hacktekers?</p>
+      </div>
+      <div class="accordion-item-body">
+        <div class="accordion-item-body-content">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus alias dolorum itaque incidunt amet animi
+            explicabo facilis, voluptates, maxime repudiandae minus at, voluptatibus optio facere in obcaecati
+            exercitationem, ab quod.</p>
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <div class="accordion-item-header">
+        <p> What Is Hacktekers?</p>
+      </div>
+      <div class="accordion-item-body">
+        <div class="accordion-item-body-content">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam error alias, incidunt dolor aperiam
+            soluta aspernatur tenetur eaque, iusto consequuntur sit nam labore id suscipit. Soluta quos, molestias cum
+            ab laborum odit quaerat quibusdam.</p>
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <div class="accordion-item-header">
+        <p>What Is Hacktekers?</p>
+      </div>
+      <div class="accordion-item-body">
+        <div class="accordion-item-body-content">
+          <p>CORS, aka Cross-Origin Resource Sharing, is a mechanism that enables many resources (e.g. images,
+            stylesheets, scripts, fonts) on a web page to be requested from another domain outside the domain from which
+            the resource originated.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+          <div class="footer-main w-100">
+
+            <div class="footer-second">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 col-12 text-white">
+                            <div class="row p-3">
+                                <div class="col-md-6 col-12">
+                                    <p class="m-0">Copyright <i class="fa-regular fa-copyright"></i> 2022 All Right Reserved.</p>
+                                </div>
+                                <div class="col-md-6 col-12 footer-icon text-right">
+                                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+                                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                                    <a href=""><i class="fa-brands fa-telegram"></i></a>
+                                    <a href=""><i class="fa-brands fa-youtube"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+  <!--script-->
+  <script src="script.js">
+  </script>
+
+<script type="text/javascript">
+$(document).ready(function(){
+  $(window).scroll(function(){
+  	var scroll = $(window).scrollTop();
+	  if (scroll > 50) {
+	    $(".nav-scroll").css("background" , "#050344");
+	  }
+
+	  else{
+		  $(".nav-scroll").css("background" , "");  	
+	  }
+  })
+})
+</script>
 </body>
+
 </html>
