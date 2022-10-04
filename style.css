@@ -20,7 +20,7 @@ html {
   font-size: 62.5%;
   overflow-x: hidden;
   scroll-behavior: smooth;
-  scroll-padding-top: 6rem;
+  /*scroll-padding-top: 6rem;*/
 }
 
 section {
@@ -47,10 +47,6 @@ section {
   font-size: 3.5rem;
   padding: 1rem;
   color: #fff;
-}
-
-.heading span {
-  color: var(--red);
 }
 
 .btn {
@@ -151,7 +147,7 @@ header .navbar a.active {
 .home {
   display: flex;
   flex-wrap: wrap;
-  gap: 1.5rem;
+  /*gap: 1.5rem;*/
   min-height: 100vh;
   align-items: center;
   /*background:url(../images/home-bg.jpg) no-repeat;*/
@@ -928,9 +924,6 @@ input.input1 + .shadow-input1 {
     font-size: 1rem;
   }
 }
-/*------------------------------------------------------------------
-[ Responsive contact]*/
-
 @media (max-width: 1200px) {
   .contact1-pic {
     width: 33.5%;
