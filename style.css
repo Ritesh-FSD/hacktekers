@@ -844,8 +844,8 @@ input.input1 + .shadow-input1 {
     padding-bottom: 25px;
   }
 .container{
-	padding-top:-40rem;
-	}	
+margin-top:-40rem;
+}	
 }
 
 @media (max-width: 768px) {
