@@ -13,7 +13,6 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
 
-  <script type="text/javascript" src="javascript/script.js"></script>
 </head>
 <body>
   <!-- Header section starts  -->
@@ -32,6 +31,7 @@
 
   </header>
   <!-- header section ends -->
+	 <script type="text/javascript" src="javascript/script.js"></script>
 
 </body>
 </html>
