@@ -7,7 +7,43 @@ menu.onclick = () =>{
   navbar.classList.toggle('active');
 
 }
+//header background
+$(document).ready(function(){
+  $(window).scroll(function(){
+    var scroll = $(window).scrollTop();
+      if (scroll > 50) {
+        $(".nav-scroll").css("background" , "#050344");
+      }
 
+      else{
+          $(".nav-scroll").css("background" , "");      
+      }
+  })
+})
+
+// upcoming project 
+
+    
+let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); 
+  // Change image every 2 seconds
+}
 
         // free courses
         $(document).ready(function () {
@@ -42,6 +78,38 @@ menu.onclick = () =>{
 
 
 
+// contact us
+
+  // contact us 
+  function Mail(){
+    
+      let name = document.getElementById("Name").value;
+      let email = document.getElementById("Email").value;
+      let message = document.getElementById("message").value;
+
+      //console.log(name, phone, email, message);
+
+      Email.send({
+        SecureToken:"7c27ee40-9fe2-4429-a5d0-3179bbda20a9",
+        To : 'riteshgupta9939@gmail.com',
+        From : "riteshgupta9939@gmail.com",
+        Subject: "Mail from Hacktakers Student ",
+        Body: "Name:" + name + "<br/> USer Eamil:" + email + "<br/> Message:" + message
+      }).then(
+        message =>{
+          //console.log (message);
+          if(message=='OK'){
+          alert('Your mail has been send. Thank you for connecting.');
+          }
+          else{
+            console.error (message);
+            alert('There is error at sending message. ')
+            
+          }
+
+        }
+      );
+    }
 
 
 
