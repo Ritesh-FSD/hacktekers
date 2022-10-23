@@ -1,4 +1,14 @@
-  
+
+let menu = document.querySelector('#menu-bar');
+let navbar = document.querySelector('.navbar');
+
+menu.onclick = () =>{
+
+  menu.classList.toggle('fa-times');
+  navbar.classList.toggle('active');
+
+}
+
 // header clor changes on scroll
 $(document).ready(function(){
   $(window).scroll(function(){
