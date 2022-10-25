@@ -1289,6 +1289,8 @@ h5{
   .container-contact1 {
     padding: 90px 15px 88px 15px;
   }
+ .about-section{
+   background:none;
 }
 @media screen and (min-width:320px) and (max-width:360px) {
   .footer-second p{
