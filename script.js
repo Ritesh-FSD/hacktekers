@@ -5,8 +5,8 @@ menu.onclick = () =>{
 
   menu.classList.toggle('fa-times');
   navbar.classList.toggle('active');
-
 }
+
 //header background
 $(document).ready(function(){
   $(window).scroll(function(){
