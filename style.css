@@ -1252,6 +1252,9 @@ h5{
   header .content h3 {
     font-size: 1rem;
   }
+.testimonial{
+	margin:20px;
+	}
 }
 
 @media (max-width: 992px) {
