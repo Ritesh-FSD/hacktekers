@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Hacktekers</title>
+	 <link rel="shortcut icon" href="images/Hacktekers_Logo.png" type="image/x-icon">
+
+  <!-- Bootstrap Link -->
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+   <!-- custom css file link  -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- font awesome cdn link  -->
+  <link href="assets/fontawesome/css/all.css" rel="stylesheet">
+
+  <script src="bootstrap/js/jquery.min.js"></script>
+  <script src="bootstrap/js/slick.min.js"></script>
+  <script src="bootstrap/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<!-- Header section starts  -->
+
+  <header class="nav-scroll">
+    <a href="#" class="logo" style="color:#fff; text-decoration: none;"><img src="images/Hacktekers_Logo.png"
+        style="width:70px;"></i>Hackteker</a>
+    <div id="menu-bar" class="fas fa-bars"></div>
+    <nav class="navbar" onclick="myFunction(event)">
+      <li><a href="index.html" >Home</a></li>
+     <li> <a href="about.html" >About</a></li>
+      <a href="service.html" >Our Service</a>
+      <a href="ourteam.html">Our Team</a>
+      <!-- <a href="#speciality">Certificate</a> -->
+      <a href="livesession.html">Live Session</a>
+
+      <!-- <a href="login.html" type="button" class="loginbtn">Login/Signup</a> -->
+      <a href="contact.html" type="button" class="loginbtn" >contact US</a>
+
+    </nav>
+
+  </header>
+  <!-- header section ends -->
+
+  <!-- contact-->
+  <div class="contact1" id="contact" style="margin-top:2%;">
+    <div class="container-contact1">
+      <div class="contact1-pic js-tilt" data-tilt>
+        <img src="images/contact.png" alt="IMG">
+      </div>
+      <form class="contact1-form validate-form" onsubmit="Mail(); reset(); return false;">
+        <span class="contact1-form-title">
+          Contact us
+        </span>
+        <div class="wrap-input1">
+          <label class="inputname">Full Name:</label>
+          <input class="input1" type="text"  id="Name" placeholder="Your Name" required>
+        </div>
+
+        <div class="wrap-input1 ">
+          <label class="inputname">Email:</label>
+          <input class="input1" type="text"  id="Email" placeholder="Email" required
+            style="text-transform: lowercase;">
+        </div>
+
+        <div class="wrap-input1 validate-input">
+          <label class="inputname">Message:</label>
+          <textarea class="input1" id="message" rows="3" placeholder="Your Message" required style="border-radius: 10px;"></textarea>
+          <!-- <input class="input1" type="text" name="age" placeholder="Age(__)" required style="width:30%;"> -->
+        </div>
+
+        <div class="container-contact1-form-btn">
+          <button type="submit" class="contact1-form-btn" >
+            <span>
+              Submit
+              <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+            </span>
+          </button>
+           <!-- <input type="button" class="btn btn-contact" onclick="sendmail();"  value="Send Message"> -->
+        </div>
+      </form>
+    </div>
+  </div>
+<script src="https://smtpjs.com/v3/smtp.js"></script>
+
+ <!-- Footer -->
+          <div class="footer-main w-100">
+
+            <div class="footer-second">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 col-12 text-white">
+                            <div class="row p-3">
+                                <div class="col-md-6 col-12">
+                                    <p class="m-0">Copyright <i class="fa-regular fa-copyright"></i> 2022 All Right Reserved.</p>
+                                </div>
+                                <div class="col-md-6 col-12 footer-icon text-right">
+                                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+                                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                                    <a href=""><i class="fa-brands fa-youtube"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+         <script src="script.js"></script>
+</body>
+</html>
