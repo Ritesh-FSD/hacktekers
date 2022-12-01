@@ -1291,6 +1291,8 @@ h5{
   }
  .about-section{
    background:none;
+   width:100%; 
+ padding:10px;
 }
 @media screen and (min-width:320px) and (max-width:360px) {
   .footer-second p{
