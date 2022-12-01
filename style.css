@@ -945,7 +945,7 @@ input.input1 + .shadow-input1 {
   position: relative;
   color:#7aa8ee;
 }
-.about-section h1::after{
+/* .about-section h1::after{
   content: "";
   background-color: #fff;
   width:10%;
@@ -954,10 +954,10 @@ input.input1 + .shadow-input1 {
   bottom: -5px;
   left:50%;
   transform: translateX(-56px);
-}
+} */
 .about-section p{
   font-size: 16px;
-  line-height: 1;
+  line-height: 1.5;
 }
 .about-container{
   max-width: 90%;
