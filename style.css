@@ -935,7 +935,7 @@ input.input1 + .shadow-input1 {
 .about-section {
   padding:50px;
   text-align: center;
-  background:url(images/about.jpg);
+/*   background:url(images/about.jpg); */
   width: 100%;
   background-position: cover;
   color: white;
@@ -1152,7 +1152,7 @@ h5{
     padding-top: 7rem;
   }*/
   .home .content{
-    padding:5rem 2rem 2rem 2rem ;
+    padding:7rem 2rem 2rem 2rem ;
   }
   .image-section {
     display: none;
@@ -1252,9 +1252,6 @@ h5{
   header .content h3 {
     font-size: 1rem;
   }
-.testimonial{
-	margin:20px;
-	}
 }
 
 @media (max-width: 992px) {
